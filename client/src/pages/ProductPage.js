@@ -68,9 +68,11 @@ const ProductPage = ({ match }) => {
                             </Col>
                         </Row>
                     </ListGroupItem>
+
                     <ListGroupItem>
-                        <Button className='btn-block btn-dark rounded px-5 text-center' type='button' disabled={product.countInStock === 0}> Add to Cart</Button>
+                        <Button className='btn-block btn-dark rounded px-5 text-center' type='button' disabled={product.countInStock === 0}> Cart</Button>
                     </ListGroupItem>
+
                 </ListGroup>
             </Card>
         </Col>
