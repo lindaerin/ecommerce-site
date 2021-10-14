@@ -5,3 +5,11 @@ main {
 .cardlink {
   text-decoration: none;
 }
+
+.rating span {
+  margin: 0.1rem;
+}
+
+h3 {
+  padding: 1rem 0;
+}

@@ -21,12 +21,12 @@ const Product = ({ product }) => {
           <div className="my-3">
             <Rating
               value={product.rating}
-              text={`${product.numReviews} reviews`}
+              text={` ${product.numReviews} reviews`}
             />
           </div>
         </Card.Text>
 
-        <Card.Text as="h2">
+        <Card.Text as="h4">
           <div className="my-3">${product.price}</div>
         </Card.Text>
       </Card.Body>
